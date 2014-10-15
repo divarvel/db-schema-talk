@@ -6,35 +6,26 @@
 
 <span style="font-size: 5.5em;">λ</span>
 
--------------------------------------------
 
-<div class="yolo" style="background-image: url(assets/schema.jpg)">
+
 # SQL Database schemas
-</div>
+![](assets/schema.jpg)
 
--------------------------------------------
 
-<div class="yolo" style="background-image: url(assets/robot-door.gif)">
 # Write your schema yourself
-</div>
+![](assets/robot-door.gif)
 
--------------------------------------------
 
-<div class="yolo" style="background-image: url(assets/trap.gif)">
 # DB-agnosticism
-</div>
+![](assets/trap.gif)
 
--------------------------------------------
 
-<div class="yolo" style="background-image: url(assets/elephant-jump.gif)">
 # Use postgreSQL
-</div>
+![](assets/elephant-jump.gif)
 
--------------------------------------------
 
-<div class="yolo" style="background-image: url(assets/rube-goldberg.gif)">
 # Avoid ORMs
-</div>
+![](assets/rube-goldberg.gif)
 
 -------------------------------------------
 
@@ -43,50 +34,34 @@
 Pomm (PHP), anorm / slick (scala), …
 
 
--------------------------------------------
 
-<div class="yolo top" style="background-image: url(assets/academics.jpg)">
 # Normal Forms
-</div>
+![](assets/academics.jpg)
 
 # Design with Querying in mind
 
 # Primary Keys
 
--------------------------------------------
-
 #Use UUIDs
 
 (or random IDs)
 
--------------------------------------------
-
-<div class="yolo" style="background-image: url(assets/hacking.gif)">
 # Prevent entity enumeration
-</div>
--------------------------------------------
+![](assets/hacking.gif)
 
-<div class="yolo" style="background-image: url(assets/hacking.gif)">
 # Prevent growth rate disclosure
-</div>
--------------------------------------------
+![](assets/hacking.gif)
 
-<div class="yolo" style="background-image: url(assets/table-flip.gif)">
 # Avoid linking the wrong table
-</div>
+![](assets/table-flip.gif)
 
--------------------------------------------
 
-<div class="yolo" style="background-image: url(assets/no-value.png)">
 # Default to not null
-</div>
+![](assets/no-value.png)
 
-
--------------------------------------------
-
-<div class="yolo" style="background-image: url(assets/elephants.gif)">
 # Don't fear the join
-</div>
+![](assets/elephants.gif)
+
 
 -------------------------------------------
 
@@ -178,20 +153,11 @@ create table reservation(
     exclude using gist (dates with &&)
 );
 ```
--------------------------------------------
-
-<div class="yolo top" style="background-image: url(assets/shape-toy.gif)">
 # You can dump K/V data
-</div>
+![](assets/shape-toy.gif)
 
-
-
--------------------------------------------
-
-<div class="yolo top" style="background-image: url(assets/shape-toy.gif)">
 # You can dump JSON data
-</div>
-
+![](assets/shape-toy.gif)
 
 -------------------------------------------
 
@@ -204,8 +170,6 @@ with sub_request as (
 
 select <fields> from sub_request;
 ```
-
--------------------------------------------
 
 # Shameless Plug
 
