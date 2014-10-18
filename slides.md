@@ -1,6 +1,6 @@
 % Clean DB schemas
 % Clément Delafargue
-% 2014-10-14
+% BDX.IO 2014-10-17
 
 -------------------------------------------
 
@@ -22,6 +22,10 @@
 
 # Use postgreSQL
 ![](assets/elephant-jump.gif)
+
+# Shameless plug
+![](assets/austin-omg.gif)
+
 
 
 # Avoid ORMs
@@ -62,6 +66,19 @@ Pomm (PHP), anorm / slick (scala), …
 # Don't fear the join
 ![](assets/elephants.gif)
 
+# Avoid deletions
+![](assets/delete.gif)
+
+# Avoid deletions
+
+```sqlpostgresql
+created_at
+    timestamp with time zone not null,
+deleted_at
+    timestamp with time zone
+```
+
+# Singular table names
 
 -------------------------------------------
 
@@ -171,7 +188,9 @@ with sub_request as (
 select <fields> from sub_request;
 ```
 
-# Shameless Plug
+# Shameless plug
+![](assets/austin-omg.gif)
+
 
 
 # jDbT
